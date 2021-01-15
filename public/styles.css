@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  background: black;
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.page {
+  background: white;
+  width: 850px;
+  height: 1100px;
+  padding: 50px 70px;
+  font-size: 20px;
+  position: relative;
+}
+
+.page-count {
+  font-size: 14px;
+  position: absolute;
+  bottom: 50px;
+  right: 70px;
+}
+
+.section {
+  margin-bottom: 50px;
+}
